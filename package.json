@@ -41,5 +41,8 @@
     "createdAt": "2023-05-31T15:13:31.683Z",
     "version": "6.3.0",
     "commit": "a942adeb868f1fe54b86e34cc4fc4ddb0601700d"
+  },
+  "dependencies": {
+    "last": "^1.1.0"
   }
 }

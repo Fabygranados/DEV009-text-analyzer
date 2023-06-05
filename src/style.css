@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(90, 18, 72);
+}
+
+header {
+   font-size: 15px;
+   color:rgb(221, 88, 183);
+   text-align: center;
+}
+
+ul {
+    color: rgb(177, 130, 221);
+    list-style: none;
+    margin: auto;
+    padding: 10px;
+    padding-left: 200px;
+    text-align: left;
+}
+
+li{
+    font-size: 11px;
+    color: rgb(241, 110, 180);
+}
+
+textarea{
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: 300px;
+    resize: none;
+    border-radius: 4px;
+    outline-color: rgb(132, 77, 120);
+    background-color: bisque;
+}
+
+ button#reset-button{
+    color: rgb(255, 127, 163);
+    background-color: rgb(61, 60, 60);
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 5px 5px 5px rgb(237, 100, 146);
+    display: block;
+    margin: auto;
+}
+
+footer {
+    font-size: 13px;
+    color: bisque;
+    text-align: center;
+    text-shadow: 1px 2px 2px rgb(77, 36, 79);
+}
