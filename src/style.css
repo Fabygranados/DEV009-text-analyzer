@@ -32,6 +32,7 @@ textarea{
     border-radius: 4px;
     outline-color: rgb(132, 77, 120);
     background-color: bisque;
+    margin-bottom: 10px;
 }
 
  button#reset-button{
