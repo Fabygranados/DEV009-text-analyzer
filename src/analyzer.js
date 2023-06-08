@@ -4,16 +4,8 @@ const analyzer = {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
   getCharacterCount: (text) => {
-    var contadorCaracteres = document.querySelector('textarea[name="user-input"]');
-
-    contadorCaracteres.addEventListener("onkeyup", function(){
-    var mensaje = document.querySelector('textarea[name="user-input"]').value;
-    var caracteres = mensaje.length;
-    //contador
-    var contador = document.querySelector("#caracteres");
-    contador.innerHTML = caracteres;
-});
-    return text.length;
+    let caracteres = text.length;
+    return caracteres;
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
   },
   getCharacterCountExcludingSpaces: (text) => {
