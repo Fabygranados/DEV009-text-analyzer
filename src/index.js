@@ -8,10 +8,7 @@ textarea.addEventListener("keyup", function(){
     contador.innerHTML = caracteres;
 });
 
-
-
-
-const resetMetricas = document.querySelector('#reset-button');
+const resetMetricas = document.getElementById('reset-button');
 
 resetMetricas.addEventListener('click', function() {
   textarea.value = '';
