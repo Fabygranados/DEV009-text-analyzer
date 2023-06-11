@@ -39,6 +39,17 @@ const analyzer = {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   },
   getNumberSum: (text) => {
+    const numeros = text.match(/\d+/g); //expresion regular para extraer solo numeros de un texto
+
+    if (numeros === null){ //si no se encuentran numeros se regresara 0
+      return 0;
+    }
+
+    let sum = 0;
+    for (let i = 0; i < numeros.length; i++) { //este ciclo for corre cada elemento del arry numeros y en cada vuelta agrega elnumero al valor variable sum
+      sum += parseInt(numeros[i]); //toma un string como parametro y devulve un numero entero, convierte el valor numeros[i] en numero entero antes de sumarlo
+    }
+    return sum;
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
   },
 };
