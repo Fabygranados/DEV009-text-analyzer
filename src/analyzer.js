@@ -30,6 +30,12 @@ const analyzer = {
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
   getNumberCount: (text) => {
+    const expReg = /\d/g; // expresion regular para encontrar numeros
+    const match = text.match(expReg); //utiliza match() para devolver un array de numeros
+    if (match === null){ //si no se encuentran numeros devolvera 0
+      return 0;
+    }
+    return match.length; //si se encuentran numeros, devuelve la cantidad de elementos.
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   },
   getNumberSum: (text) => {
