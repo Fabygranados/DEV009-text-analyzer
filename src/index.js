@@ -38,5 +38,7 @@ resetMetricas.addEventListener('click', function() {
   lonPromedio.innerHTML = "0";
   let ContNumeros = document.querySelector(".numeros");
   ContNumeros.innerHTML = "0";
+  let NumSum = document.querySelector(".suma");
+  NumSum.innerHTML = "0";
 });
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
