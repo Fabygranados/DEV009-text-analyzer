@@ -1,6 +1,6 @@
 const analyzer = {  
   getWordCount: (text) => {
-    const wordCount = text.split(" ").length;
+    const wordCount = text.split(" ").length; 
     return wordCount;
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
@@ -16,7 +16,7 @@ const analyzer = {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
   },
   getAverageWordLength: (text) => {   
-    const palabras = text.split(" "); 
+    const palabras = text.split(" "); //divide el texto en palabras separadas por un espacio
     let sumaLongitud = 0;
     let cantidadPalabras = 0;
 
