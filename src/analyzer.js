@@ -20,12 +20,12 @@ const analyzer = {
     let sumaLongitud = 0;
     let cantidadPalabras = 0;
 
-    for (let i = 0; i < palabras.length; i ++){ //
-      sumaLongitud += palabras[i].length;
-      cantidadPalabras++;
+    for (let i = 0; i < palabras.length; i ++){ //Se establece la funcion i igual a 0 y busca si esta es menor q el largo de palabra y si es mayor se ejecuta el bucle
+      sumaLongitud += palabras[i].length; //se agrega la longitud de palabra para obtener la suma de las longitudes
+      cantidadPalabras++; //se agrega 1 a la cantidad de palabras
     }
     let promedio = sumaLongitud /cantidadPalabras;
-    promedio = promedio.toFixed(2);
+    promedio = promedio.toFixed(2); //se agrego tofixed(2) para q solo se muestren 2 decimales en el promedio
 
     return Number(promedio);
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
